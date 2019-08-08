@@ -1,0 +1,16 @@
+#!/bin/bash
+
+PROJECT_DIR=..
+DATA_DIR=$PROJECT_DIR/data
+META_DIR=$DATA_DIR/meta
+META_FILE="demographics.txt"
+GROUPS_DIR=$DATA_DIR/groups
+SUBJECT_DATA="BOLD"
+TASK="task001_run001"
+BOLD_FILE="bold.nii.gz"
+BOLD_DIR=$DATA_DIR/bold
+BOLD_FILE_EXT="nii.gz"
+OUT_DIR=$DATA_DIR/subjects
+OUT_FILE_EXT=".csv"
+
+SRC_DIR=$PROJECT_DIR/src

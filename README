@@ -1,0 +1,6 @@
+1.  grab original data from xnat and setup using setup_all_subs.py
+
+2.  set up new directories using reformat_data.py
+
+3.  set up functional data using copy_func_data.py
+
